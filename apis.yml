@@ -1,8 +1,32 @@
 aid: magical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magical.png
 name: Magical
-description: 'Magical is a company surfaced as a portfolio company of bain-capital-ventures, greylock,
-  sv-angel and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Magical is an AI-agent platform that automates repetitive administrative and
+  operational workflows without requiring API integrations, instead driving the
+  same web applications and databases a human worker would use. Originally known
+  for its cross-application autofill and text-automation product, Magical has
+  focused on healthcare operations, deploying specialized AI agents for patient
+  access, revenue cycle management, prior authorizations, referrals, benefits
+  verification, records requests, revenue integrity, and payment posting across
+  EHR and payer systems such as Epic, Cerner, athenahealth, eClinicalWorks,
+  ModMed, Availity, and major insurers. Agents can be deployed individually or
+  combined into autonomous suites, with the company reporting high task accuracy
+  and multi-week deployment timelines. Magical is backed by Bain Capital
+  Ventures, Greylock, and SV Angel. Notably, Magical operates through
+  user-interface automation ("no APIs or integrations are required") rather than
+  by exposing a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/magical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +38,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Apps
+- AI Agents
+- Healthcare
+- Revenue Cycle Management
+- Workflow Automation
+- Automation
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +56,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://bcv-prod.wild.plus/insight/magical
+  url: https://www.getmagical.com/
+- type: About
+  url: https://www.getmagical.com/about-us
+- type: Blog
+  url: https://www.getmagical.com/blog
+- type: Support
+  url: https://help.getmagical.com/
+- type: HelpCenter
+  url: https://help.getmagical.com/
+- type: SignUp
+  url: https://www.getmagical.com/contact
+- type: TermsOfService
+  url: https://www.getmagical.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getmagical.com/legal/privacy-policy
+- type: Compliance
+  url: https://www.getmagical.com/trust
+- type: Security
+  url: https://www.getmagical.com/trust#responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/magical-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/magical-trust-center.yml
+- type: DomainSecurity
+  url: security/magical-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
