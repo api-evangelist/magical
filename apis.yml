@@ -56,7 +56,7 @@ tags:
 - AI Agents
 - Healthcare
 - Revenue Cycle Management
-- Workflow-Automation
+- Workflow Automation
 - Automation
 - Productivity
 tags_raw:
@@ -68,6 +68,7 @@ tags_raw:
 - Workflow Automation
 - Automation
 - Productivity
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
