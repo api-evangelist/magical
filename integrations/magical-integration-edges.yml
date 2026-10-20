@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/magical/integrations
+- https://n8n.io/integrations/magical/
+- https://composio.dev/toolkits/magical
+- https://monid.ai/tools/magical
+checked:
+- https://composio.dev/toolkits/magical
+- https://monid.ai/tools/magical
+- https://n8n.io/integrations/magical/
+- https://zapier.com/apps/magical/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
